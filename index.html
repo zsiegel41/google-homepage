@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
 
   <body>
     <nav>
       <div class = "about">
-      <ul>
+      <ul id = "left-menu">
         <li>About</li>
         <li>Store</li>
       </ul>
       </div>
       <div class = "account-info">
-        <ul>
+        <ul id = "right-menu">
           <li id = "gmail">Gmail</li>
           <li id = "images">Images</li>
           <li id = "Google-apps"><a class="gb_D gb_zc" href="https://www.google.com/intl/en/about/products?tab=wh"
             title="Google apps" aria-expanded="false" role="button" tabindex="0"></a></li>
-          <li id = "account"><img class="gb_Ka gbii" src="https://lh3.googleusercontent.com/ogw/ADGmqu_jM7ZIcbwzkgJeJ6sVTJh0jpgIL6kyOR9Mrofj=s32-c-mo"
+          <li id = "account"><img class="gb_Ka" src="https://lh3.googleusercontent.com/ogw/ADGmqu_jM7ZIcbwzkgJeJ6sVTJh0jpgIL6kyOR9Mrofj=s32-c-mo"
             srcset="https://lh3.googleusercontent.com/ogw/ADGmqu_jM7ZIcbwzkgJeJ6sVTJh0jpgIL6kyOR9Mrofj=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADGmqu_jM7ZIcbwzkgJeJ6sVTJh0jpgIL6kyOR9Mrofj=s64-c-mo 2x "
             alt="" aria-hidden="true" data-noaft="" data-iml="1594927550948" data-atf="1"></li>
         </ul>
       </div>
     </nav>
     <center>
-      <img alt="Google" height="92" id="hplogo"
-      src="/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-      srcset="/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x"
-      style="padding-top:109px" width="272" data-iml="1594927550994" data-atf="1">
+      <div>
+        <img alt="Google" height="92" id="hplogo"
+        src="googlelogo_color_272x92dp.png"
+        style="padding-top:109px" width="272" data-iml="1594927550994" data-atf="1">
+        <div class = "searchbar">
+          <div class = "searchbar-graphics">
+            <img src = "magnifying-glass.jpeg" id = "mag-glass">
+            <img src = "712px-Google_mic.svg.png" id = "mic">
+          </div>
+          <input id="searchbar" type="text">
+        </div>
+        <div class = "searchbar-buttons">
+          <button type="submit" name="search" id = "search-button" label = "search-btn">Google Search</button>
+          <button type="submit" name="lucky" id = "feeling-lucky" label = "lucky-btn">I'm Feeling Lucky</button>
+        </div>
+      </div>
     </center>
+    <footer>
+      <div class = "press-info">
+        <ul id = "press-info">
+          <li id = "advertising">Advertising</li>
+          <li id = "business">Business</li>
+          <li id = "tutorial">How Search works</li>
+        </ul>
+      </div>
+      <div class = "site-info">
+        <ul id = "site-info">
+          <li id = "privacy">Privacy</li>
+          <li id = "terms">Terms</li>
+          <li id = "settings">Settings</li>
+        </ul>
+      </div>
+    </footer>
+
   </body>
 </html>
